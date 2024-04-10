@@ -60,29 +60,6 @@ label.place(x=100, y=10, height=35, width=300)
 entry = tk.Entry(root,width=72)
 entry.place(x=100, y=450, height=50, width=350)
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-   
 txt_input.delete(0, 'end')
 
 button = tk.Button(root, text='Send', command=textReply)
