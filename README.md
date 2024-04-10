@@ -20,5 +20,4 @@ imported GUI libraries.
 #Made a personalized to do list for myself to note daily activities and print it on the board.
 
 
-# GRAPHIC DESIGNING 
-# created banner logo, designed mockups with al generated iamges.
+# GRAPHIC DESIGNING: created banner logo, designed mockups with al generated images.
