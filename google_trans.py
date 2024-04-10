@@ -48,8 +48,7 @@ comb_dest.place(x=330, y=300, height=40, width=150)
 comb_dest.set("english")
 
 
-#lab_txt = Label(root, text='TO', font=('Time New Roman', 20, 'bold'))
-#lab_txt.place(x=100,y=100, height=200, width=300)
+
 
 dest_txt = Text(frame, font=("Time New Roman", 20, 'bold'), wrap=WORD)
 dest_txt.place(x=10, y=360, height=150, width=480)
