@@ -1,0 +1,136 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATIVE MARKETING </title>
+    <link href="marketing.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="logo"> 
+         Creative <br> 
+          Marketing 
+    </div>
+    <header>
+       
+        <nav> 
+            <ul> 
+                <li> <a href="#"> Home </a></li>
+                <li> <a href="#"> Services </a></li>
+                <li> <a href="#"> Blog </a></li>
+                <li> <a href="#"> About </a></li>
+                <li> <a href="#"> FAQ</a></li>
+
+            </ul> 
+
+        </nav> </header>
+    <main> 
+
+        <div  class="content-left">
+            <h1> Subscibe Now <br> to Our Newsletter </h1> 
+            <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  
+                Quas unde, alias inventore quidem quibusdam recusandae vitae repellat esse earum iure? <br> 
+                 Vel, totam nisi illum similique possimus fugiat doloribus aut laboriosam.</p>
+            <input name="email" type="email" placeholder="Name"> 
+            <input name="email" type="email" placeholder="Email"> 
+            <button class="send "> Send  </button>
+
+        </div>
+        <div class="content-right">
+            <img src="lap12.jpg" alt="" class="image"> 
+
+            
+        </div>
+    </main>
+
+</body>
+</html>
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #606C72;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin: 20px;
+    padding: 20px;
+    
+
+
+
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+   
+}
+
+ul {
+   
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+
+ul li a {
+    
+    text-decoration: none ;
+    color: white;
+    padding: 0 20px;
+    margin-left: 80px;
+    
+
+}
+
+
+li a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: yellow;
+    transition: all 2s;
+}
+
+
+li a:hover::after {
+    width: 100%;
+}
+
+
+
+main{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+h1{
+    
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column; 
+   
+}
+
+
+.content-right {
+    justify-content: flex-end;
+}
+
+
